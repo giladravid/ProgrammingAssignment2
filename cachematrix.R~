@@ -1,7 +1,7 @@
 ## The functions will alloew us to calculate matrix invers, if we allready calculated it the answer will taken from cache
 
 ## makeCacheMatrix counstruct the matrix and define the functions to invers it
-## matrix to inverse and cache
+
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
@@ -17,8 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolce use the makeCacheMatrix function in order to run it, If we allready have the returned object will returned answer from cache
-## input makeCahcheMatrix list return the inverse matrix
+## use the makeCacheMatrix function in order to run it, If we allready have the returned object we get answer from cache
+
 cacheSolve <- function(x, ...) {
 	## Return a matrix that is the inverse of 'x'
         m <- x$getsolve()
